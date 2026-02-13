@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# PyTorch models and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+
+# Data directories
+data/
+models/
+rare_patterns/
+Capstone_results/
+
+# Environment and IDE
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+logs/
+
+# Dataset directories (if any)
+e2-master/
+*.csv
+*.csv.gz
+*.parquet
+
+# Keep utils folder but ignore cache
+utils/__pycache__/
+
+# Allow necessary files (explicitly tracked)
+!README.md
+!requirements.txt
+!environment.yml
+!utils/
+!utils/**/*.py
